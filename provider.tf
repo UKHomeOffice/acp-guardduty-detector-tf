@@ -66,3 +66,8 @@ provider "aws" {
   alias  = "us-east-1"
   region = "us-east-1"
 }
+
+provider "aws" {
+  alias  = "ca-central-1"
+  region = "ca-central-1"
+}
