@@ -1,7 +1,3 @@
-terraform {
-  required_version = ">= 0.12"
-}
-
 resource "aws_guardduty_detector" "eu_west_1" {
   enable   = true
   provider = aws.eu-west-1
