@@ -68,6 +68,16 @@ resource "aws_guardduty_detector" "us_west_1" {
   provider = aws.us-west-1
 }
 
+resource "aws_guardduty_detector" "eu_north_1" {
+  enable   = true
+  provider = aws.eu-north-1
+}
+
+resource "aws_guardduty_detector" "ap_northeast_3" {
+  enable   = true
+  provider = aws.ap-northeast-3
+}
+
 resource "aws_guardduty_detector" "ca_central_1" {
   enable   = true
   provider = aws.ca-central-1
